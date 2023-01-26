@@ -80,7 +80,7 @@ delete user["city og residence"];
 
 //9.4
 let info = prompt("Какую информацию вы хотите узнать о пользователе?")
-alert (info);
+alert (user[info]);
 
 //10
 let caller = prompt('Как вас зовут?');
